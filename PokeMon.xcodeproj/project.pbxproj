@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		274FFA6B0E12938D9EEAEEF6 /* Pods_PokenMon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66340EC72A17BCB995EEFE3 /* Pods_PokenMon.framework */; };
+		288E74C6DBAED348A58309FB /* Pods_PokeMon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235107C2A8C6AE17D1E0B633 /* Pods_PokeMon.framework */; };
 		5746FAE127E8D9BA00DAE3FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746FAE027E8D9BA00DAE3FC /* AppDelegate.swift */; };
 		5746FAE327E8D9BA00DAE3FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746FAE227E8D9BA00DAE3FC /* SceneDelegate.swift */; };
 		5746FAE527E8D9BA00DAE3FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746FAE427E8D9BA00DAE3FC /* MainViewController.swift */; };
@@ -55,8 +55,8 @@
 		5751D13927E9AD1400D5A83A /* PokeMonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751D13827E9AD1400D5A83A /* PokeMonDetailViewController.swift */; };
 		5751D13B27E9B56500D5A83A /* PokeMonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751D13A27E9B56500D5A83A /* PokeMonDetail.swift */; };
 		5751D13D27E9B79500D5A83A /* PokeMonDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751D13C27E9B79500D5A83A /* PokeMonDetailData.swift */; };
-		C64B2472AD1E0144CA0C89AC /* Pods_PokenMonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71B8DEAC41511687B864690 /* Pods_PokenMonTests.framework */; };
-		D416CC53E6B7F71308A96805 /* Pods_PokenMon_PokenMonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E1046958E3338A1BF5E47F /* Pods_PokenMon_PokenMonUITests.framework */; };
+		D7739BC475C1ABD5271C8028 /* Pods_PokeMonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04FE416EB5AA73A1A81ED37 /* Pods_PokeMonTests.framework */; };
+		FBA696DEC08A66C56B313362 /* Pods_PokeMon_PokeMonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C8889F3DE50051412FED64 /* Pods_PokeMon_PokeMonUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,9 +77,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E1046958E3338A1BF5E47F /* Pods_PokenMon_PokenMonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokenMon_PokenMonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		054B699953C940079C6DC140 /* Pods-PokeMon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeMon.debug.xcconfig"; path = "Target Support Files/Pods-PokeMon/Pods-PokeMon.debug.xcconfig"; sourceTree = "<group>"; };
 		078AFC8AC4243408AD1A837F /* Pods-PokenMonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokenMonTests.release.xcconfig"; path = "Target Support Files/Pods-PokenMonTests/Pods-PokenMonTests.release.xcconfig"; sourceTree = "<group>"; };
+		07C090D021A5F77707D43A8B /* Pods-PokeMon-PokeMonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeMon-PokeMonUITests.release.xcconfig"; path = "Target Support Files/Pods-PokeMon-PokeMonUITests/Pods-PokeMon-PokeMonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		16C1714C7110E35E2C927C10 /* Pods-PokenMonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokenMonTests.debug.xcconfig"; path = "Target Support Files/Pods-PokenMonTests/Pods-PokenMonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		235107C2A8C6AE17D1E0B633 /* Pods_PokeMon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeMon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31756D1B649B054BB0B371F6 /* Pods-PokeMonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeMonTests.release.xcconfig"; path = "Target Support Files/Pods-PokeMonTests/Pods-PokeMonTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B84DE916BA1DDE468372CDC /* Pods-PokeMonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeMonTests.debug.xcconfig"; path = "Target Support Files/Pods-PokeMonTests/Pods-PokeMonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		55CD3860AD687C6A42CCDF28 /* Pods-PokenMon-PokenMonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokenMon-PokenMonUITests.release.xcconfig"; path = "Target Support Files/Pods-PokenMon-PokenMonUITests/Pods-PokenMon-PokenMonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5746FADD27E8D9BA00DAE3FC /* PokeMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5746FAE027E8D9BA00DAE3FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,10 +137,12 @@
 		5751D13A27E9B56500D5A83A /* PokeMonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeMonDetail.swift; sourceTree = "<group>"; };
 		5751D13C27E9B79500D5A83A /* PokeMonDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeMonDetailData.swift; sourceTree = "<group>"; };
 		9BC2242155EE9D2C577A98F9 /* Pods-PokenMon-PokenMonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokenMon-PokenMonUITests.debug.xcconfig"; path = "Target Support Files/Pods-PokenMon-PokenMonUITests/Pods-PokenMon-PokenMonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A982B9973D11B77D538BA4FB /* Pods-PokeMon-PokeMonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeMon-PokeMonUITests.debug.xcconfig"; path = "Target Support Files/Pods-PokeMon-PokeMonUITests/Pods-PokeMon-PokeMonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C8889F3DE50051412FED64 /* Pods_PokeMon_PokeMonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeMon_PokeMonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6F4AE32A303274C05023BD /* Pods-PokenMon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokenMon.debug.xcconfig"; path = "Target Support Files/Pods-PokenMon/Pods-PokenMon.debug.xcconfig"; sourceTree = "<group>"; };
 		C1AF83449B7B999BF9F214CD /* Pods-PokenMon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokenMon.release.xcconfig"; path = "Target Support Files/Pods-PokenMon/Pods-PokenMon.release.xcconfig"; sourceTree = "<group>"; };
-		D66340EC72A17BCB995EEFE3 /* Pods_PokenMon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokenMon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F71B8DEAC41511687B864690 /* Pods_PokenMonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokenMonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04FE416EB5AA73A1A81ED37 /* Pods_PokeMonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeMonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D353501421C45EA4CDB9B796 /* Pods-PokeMon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeMon.release.xcconfig"; path = "Target Support Files/Pods-PokeMon/Pods-PokeMon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274FFA6B0E12938D9EEAEEF6 /* Pods_PokenMon.framework in Frameworks */,
+				288E74C6DBAED348A58309FB /* Pods_PokeMon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C64B2472AD1E0144CA0C89AC /* Pods_PokenMonTests.framework in Frameworks */,
+				D7739BC475C1ABD5271C8028 /* Pods_PokeMonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D416CC53E6B7F71308A96805 /* Pods_PokenMon_PokenMonUITests.framework in Frameworks */,
+				FBA696DEC08A66C56B313362 /* Pods_PokeMon_PokeMonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +347,9 @@
 		D5714F40F9426BC56607B0F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D66340EC72A17BCB995EEFE3 /* Pods_PokenMon.framework */,
-				06E1046958E3338A1BF5E47F /* Pods_PokenMon_PokenMonUITests.framework */,
-				F71B8DEAC41511687B864690 /* Pods_PokenMonTests.framework */,
+				235107C2A8C6AE17D1E0B633 /* Pods_PokeMon.framework */,
+				A9C8889F3DE50051412FED64 /* Pods_PokeMon_PokeMonUITests.framework */,
+				D04FE416EB5AA73A1A81ED37 /* Pods_PokeMonTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -357,6 +363,12 @@
 				55CD3860AD687C6A42CCDF28 /* Pods-PokenMon-PokenMonUITests.release.xcconfig */,
 				16C1714C7110E35E2C927C10 /* Pods-PokenMonTests.debug.xcconfig */,
 				078AFC8AC4243408AD1A837F /* Pods-PokenMonTests.release.xcconfig */,
+				054B699953C940079C6DC140 /* Pods-PokeMon.debug.xcconfig */,
+				D353501421C45EA4CDB9B796 /* Pods-PokeMon.release.xcconfig */,
+				A982B9973D11B77D538BA4FB /* Pods-PokeMon-PokeMonUITests.debug.xcconfig */,
+				07C090D021A5F77707D43A8B /* Pods-PokeMon-PokeMonUITests.release.xcconfig */,
+				3B84DE916BA1DDE468372CDC /* Pods-PokeMonTests.debug.xcconfig */,
+				31756D1B649B054BB0B371F6 /* Pods-PokeMonTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -537,7 +549,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PokenMon-PokenMonUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PokeMon-PokeMonUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -550,15 +562,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PokenMon-PokenMonUITests/Pods-PokenMon-PokenMonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PokeMon-PokeMonUITests/Pods-PokeMon-PokeMonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PokenMon-PokenMonUITests/Pods-PokenMon-PokenMonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PokeMon-PokeMonUITests/Pods-PokeMon-PokeMonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PokenMon-PokenMonUITests/Pods-PokenMon-PokenMonUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PokeMon-PokeMonUITests/Pods-PokeMon-PokeMonUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EAEF919B00C301DC6E2AC224 /* [CP] Embed Pods Frameworks */ = {
@@ -567,15 +579,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PokenMon/Pods-PokenMon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PokeMon/Pods-PokeMon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PokenMon/Pods-PokenMon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PokeMon/Pods-PokeMon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PokenMon/Pods-PokenMon-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PokeMon/Pods-PokeMon-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA2D8702C3F5FF97D8D28C35 /* [CP] Check Pods Manifest.lock */ = {
@@ -593,7 +605,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PokenMon-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PokeMon-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -615,7 +627,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PokenMonTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PokeMonTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -814,7 +826,7 @@
 		};
 		5746FB0827E8D9BC00DAE3FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD6F4AE32A303274C05023BD /* Pods-PokenMon.debug.xcconfig */;
+			baseConfigurationReference = 054B699953C940079C6DC140 /* Pods-PokeMon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -844,7 +856,7 @@
 		};
 		5746FB0927E8D9BC00DAE3FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1AF83449B7B999BF9F214CD /* Pods-PokenMon.release.xcconfig */;
+			baseConfigurationReference = D353501421C45EA4CDB9B796 /* Pods-PokeMon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -874,7 +886,7 @@
 		};
 		5746FB0B27E8D9BC00DAE3FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16C1714C7110E35E2C927C10 /* Pods-PokenMonTests.debug.xcconfig */;
+			baseConfigurationReference = 3B84DE916BA1DDE468372CDC /* Pods-PokeMonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -895,7 +907,7 @@
 		};
 		5746FB0C27E8D9BC00DAE3FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 078AFC8AC4243408AD1A837F /* Pods-PokenMonTests.release.xcconfig */;
+			baseConfigurationReference = 31756D1B649B054BB0B371F6 /* Pods-PokeMonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -916,7 +928,7 @@
 		};
 		5746FB0E27E8D9BC00DAE3FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BC2242155EE9D2C577A98F9 /* Pods-PokenMon-PokenMonUITests.debug.xcconfig */;
+			baseConfigurationReference = A982B9973D11B77D538BA4FB /* Pods-PokeMon-PokeMonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -935,7 +947,7 @@
 		};
 		5746FB0F27E8D9BC00DAE3FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55CD3860AD687C6A42CCDF28 /* Pods-PokenMon-PokenMonUITests.release.xcconfig */;
+			baseConfigurationReference = 07C090D021A5F77707D43A8B /* Pods-PokeMon-PokeMonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
