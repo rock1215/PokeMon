@@ -16,3 +16,5 @@ pod install
 ```
 
 ### Open PokeMon.xcworkspace file in XCode.
+
+![Alt text](/images/screen_run.png?raw=true "Opening Page")
