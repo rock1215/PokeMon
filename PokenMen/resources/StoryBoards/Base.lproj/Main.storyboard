@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K9c-pg-bs4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K9c-pg-bs4">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -43,24 +43,6 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="MW2-3b-Rw0"/>
                                 </connections>
                             </tableView>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uL9-Jg-1kn">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FAM-jt-ePk">
-                                        <rect key="frame" x="20" y="328" width="374" height="240"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="240" id="x1u-az-u4h"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="FAM-jt-ePk" secondAttribute="trailing" constant="20" symbolic="YES" id="GAx-vK-U6j"/>
-                                    <constraint firstItem="FAM-jt-ePk" firstAttribute="centerX" secondItem="uL9-Jg-1kn" secondAttribute="centerX" id="TeR-3f-5fj"/>
-                                    <constraint firstItem="FAM-jt-ePk" firstAttribute="centerY" secondItem="uL9-Jg-1kn" secondAttribute="centerY" id="YEq-Cg-C04"/>
-                                    <constraint firstItem="FAM-jt-ePk" firstAttribute="leading" secondItem="uL9-Jg-1kn" secondAttribute="leading" constant="20" symbolic="YES" id="kcD-J2-xwz"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBR-ho-Uie">
                                 <rect key="frame" x="174" y="792" width="220" height="50"/>
                                 <subviews>
@@ -145,6 +127,24 @@
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uL9-Jg-1kn">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FAM-jt-ePk">
+                                        <rect key="frame" x="20" y="328" width="374" height="240"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="x1u-az-u4h"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="FAM-jt-ePk" secondAttribute="trailing" constant="20" symbolic="YES" id="GAx-vK-U6j"/>
+                                    <constraint firstItem="FAM-jt-ePk" firstAttribute="centerX" secondItem="uL9-Jg-1kn" secondAttribute="centerX" id="TeR-3f-5fj"/>
+                                    <constraint firstItem="FAM-jt-ePk" firstAttribute="centerY" secondItem="uL9-Jg-1kn" secondAttribute="centerY" id="YEq-Cg-C04"/>
+                                    <constraint firstItem="FAM-jt-ePk" firstAttribute="leading" secondItem="uL9-Jg-1kn" secondAttribute="leading" constant="20" symbolic="YES" id="kcD-J2-xwz"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
